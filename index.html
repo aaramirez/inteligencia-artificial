@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KX76XF8R');</script>
+<!-- End Google Tag Manager -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Inteligencia artificial clásica</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Agentes racionales, búsqueda informada y adversaria, restricciones, lógica, razonamiento con incertidumbre, planificación y sistemas expertos: las ideas de la IA simbólica, con laboratorios donde ves a los algoritmos pensar paso a paso.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KX76XF8R"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="wrap" data-page="index">
+<header class="topbar"><a class="brand" href="index.html">Inteligencia artificial <b>clásica</b></a><span class="eyebrow">Curso visual e interactivo · Datos e inteligencia artificial</span><a class="al-sitio" href="https://aaramirez.github.io/">← Todos los cursos</a></header>
+<div class="layout">
+<nav class="toc" id="toc" aria-label="Ruta de aprendizaje"></nav>
+<main>
+
+<header class="hero">
+  <span class="eyebrow">Curso visual e interactivo · Datos e inteligencia artificial</span>
+  <h1>Un robot de reparto que no aprende nada y aun así encuentra el camino</h1>
+  <p class="lede">Mucho antes de las redes neuronales, la inteligencia artificial ya sabía buscar rutas, ganar al ajedrez, armar horarios, deducir hechos y hacer planes. Lo lograba sin datos de entrenamiento: con una buena formulación del problema, una búsqueda bien guiada y conocimiento escrito en lógica. Este curso explica esas ideas, que siguen vivas dentro de los navegadores, los videojuegos, los planificadores industriales y los agentes con modelos de lenguaje.</p>
+</header>
+
+<section>
+  <h2>Cómo usar este curso</h2>
+  <div class="prose">
+    <p><b>Estado.</b> El curso está en preparación. La <a href="temario.html">tabla de contenido</a> ya tiene los 14 capítulos con sus secciones y sus laboratorios, y está en revisión.</p>
+    <p><b>Para quién es.</b> Para estudiantes de computación que ya programan y conocen grafos, recorridos en anchura y en profundidad y colas de prioridad (están en Algoritmos y estructuras de datos). La lógica proposicional y de predicados se repasa en una línea y está completa en Lógica simbólica; la probabilidad, en Probabilidad (Matemática). El aprendizaje automático, las redes neuronales y los modelos de lenguaje no se desarrollan aquí: están en Aprendizaje automático, Aprendizaje profundo y Modelos de IA.</p>
+    <p><b>Cómo está hecho.</b> Un robot de reparto en una ciudad cuadriculada recorre el curso: primero solo busca una ruta, luego le ponen calles cerradas y una heurística, compite con un repartidor rival, cumple restricciones de horario, razona con reglas sobre el estado de las calles, duda cuando sus sensores fallan y termina planificando un día de entregas. Cada laboratorio deja cambiar el mapa, la heurística o las reglas y ver al algoritmo expandir nodos, podar ramas o propagar creencias en vivo.</p>
+  </div>
+</section>
+
+<details class="stage" id="temario" open><summary><h2><span class="pn">Empieza aquí</span> Tabla de contenido</h2></summary>
+  <div class="mods">
+    <a class="mod" href="temario.html"><span class="n">≡</span><b>Tabla de contenido</b><p>Cada capítulo con sus secciones y sus laboratorios.</p></a>
+  </div>
+</details>
+
+<details class="stage" id="parte-1" open><summary><h2><span class="pn">Parte 1</span> Agentes y problemas</h2><span class="cuenta" data-etapa-cuenta="1"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="que-es-la-ia"><span class="n">01</span><b>Qué es la inteligencia artificial: de Dartmouth al agente racional</b><p>Cuatro maneras de definir la IA, sus primaveras e inviernos, y por qué el curso adopta la idea de agente racional.</p></div>
+    <div class="mod soon" data-id="agentes-y-entornos"><span class="n">02</span><b>Agentes, entornos y la formulación de problemas</b><p>Tipos de entorno y de agente, y cómo se describe un problema como estados, acciones, metas y costos.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-2" open><summary><h2><span class="pn">Parte 2</span> Buscar</h2><span class="cuenta" data-etapa-cuenta="2"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="busqueda-no-informada"><span class="n">03</span><b>Búsqueda no informada</b><p>Anchura, profundidad, costo uniforme y profundización iterativa, comparadas en tiempo, memoria y optimalidad.</p></div>
+    <div class="mod soon" data-id="busqueda-informada"><span class="n">04</span><b>Búsqueda informada: A* y heurísticas</b><p>Voraz, A* y sus variantes, y cómo se inventa una buena heurística.</p></div>
+    <div class="mod soon" data-id="busqueda-local"><span class="n">05</span><b>Búsqueda local y optimización</b><p>Cuando importa el estado final y no el camino: ascenso de colinas, recocido simulado, haz local y algoritmos genéticos.</p></div>
+    <div class="mod soon" data-id="juegos"><span class="n">06</span><b>Juegos y búsqueda adversaria</b><p>Minimax, poda alfa-beta, funciones de evaluación y Monte Carlo en árboles de juego.</p></div>
+    <div class="mod soon" data-id="restricciones"><span class="n">07</span><b>Problemas de satisfacción de restricciones</b><p>Variables, dominios y restricciones: vuelta atrás, propagación y heurísticas para resolver horarios, mapas y sudokus.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-3" open><summary><h2><span class="pn">Parte 3</span> Conocer y razonar</h2><span class="cuenta" data-etapa-cuenta="3"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="agentes-logicos"><span class="n">08</span><b>Agentes basados en conocimiento y lógica proposicional</b><p>Una base de conocimiento, el ciclo decir-preguntar y la inferencia en lógica proposicional.</p></div>
+    <div class="mod soon" data-id="primer-orden"><span class="n">09</span><b>Lógica de primer orden para representar conocimiento</b><p>Objetos, relaciones y cuantificadores para escribir lo que se sabe del mundo, y cómo se razona con ellos.</p></div>
+    <div class="mod soon" data-id="sistemas-expertos"><span class="n">10</span><b>Redes semánticas, marcos y sistemas expertos</b><p>Representaciones no lógicas con herencia y valores por defecto, y los sistemas de reglas de los años 80: cómo funcionaban, por qué cayeron y dónde siguen.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-4" open><summary><h2><span class="pn">Parte 4</span> Incertidumbre y decisión</h2><span class="cuenta" data-etapa-cuenta="4"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="redes-bayesianas"><span class="n">11</span><b>Razonar con incertidumbre: redes bayesianas</b><p>Por qué la lógica no alcanza con incertidumbre y cómo una red bayesiana representa creencias y las actualiza.</p></div>
+    <div class="mod soon" data-id="decisiones"><span class="n">12</span><b>Utilidades y decisiones</b><p>Utilidad esperada, diagramas de influencia y el valor de la información para decidir con riesgo.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-5" open><summary><h2><span class="pn">Parte 5</span> Planificar y conectar</h2><span class="cuenta" data-etapa-cuenta="5"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="planificacion"><span class="n">13</span><b>Planificación automática</b><p>Acciones con precondiciones y efectos, planificación hacia adelante y hacia atrás, y planificación jerárquica.</p></div>
+    <div class="mod soon" data-id="ia-clasica-hoy"><span class="n">14</span><b>La IA clásica dentro de la IA moderna</b><p>Dónde siguen vivas estas ideas: búsqueda en agentes con modelos de lenguaje, planificadores verificados y sistemas neurosimbólicos.</p></div>
+  </div>
+</details>
+
+
+
+<nav class="pager" id="pager" aria-label="Capítulo anterior y siguiente"></nav>
+</main>
+</div>
+<footer><span>Curso abierto de aaramirez.github.io.</span><span>Sitio publicado: <a href="https://github.com/aaramirez/inteligencia-artificial" target="_blank" rel="noopener">github.com/aaramirez/inteligencia-artificial</a></span></footer>
+</div>
+<script src="assets/lab.js"></script>
+</body>
+</html>
